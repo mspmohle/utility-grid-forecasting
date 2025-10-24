@@ -4,6 +4,24 @@ This repository presents a reproducible **short-term electricity load forecastin
 
 The goal is to provide a transparent, extendable foundation for future utility analytics work, enabling integration with internal AES data sources (SCADA, AMI, weather feeds) and more advanced forecasting techniques such as SARIMA, Prophet, or gradient-boosted models. All results are reproducible in a single Jupyter environment and export ready for dashboards or Power BI integration.
 
+## 🧱 Repository Structure
+utility-grid-forecasting/
+│
+├── 📂 data/
+│ ├── 📁 raw/ → Source data (open MISO or synthetic AES proxy data)
+│ ├── 📁 processed/ → Cleaned intermediate data (optional)
+│ └── 📁 outputs/ → Forecast CSV exports and tables
+│
+├── 📂 figures/ → Saved visualizations (trends, forecasts, etc.)
+│
+├── 📂 notebooks/
+│ └── utility_grid_forecasting.ipynb → Main Jupyter notebook
+│
+├── 📄 requirements.txt → Python dependencies
+├── 📄 README.md → Project overview and documentation
+└── 📄 .gitignore → Ignore patterns for temporary and large files
+<img width="468" height="326" alt="image" src="https://github.com/user-attachments/assets/b05e2bbd-4436-4792-9754-c9f3c59841e5" />
+
 Key Deliverables in This Repo
 •	Goal: Predict short-term utility grid load (daily/weekly) using open or synthetic data.
 •	Core Models: ARIMA → SARIMA → RandomForestRegressor (optional).
