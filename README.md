@@ -19,7 +19,7 @@ utility-grid-forecasting/
 │
 ├── 📄 requirements.txt → Python dependencies
 ├── 📄 README.md → Project overview and documentation
-└── 📄 .gitignore → Ignore patterns for temporary, large files
+└── 📄 .gitignore → Ignore patterns for temporary and large files
 <img width="468" height="326" alt="image" src="https://github.com/user-attachments/assets/b05e2bbd-4436-4792-9754-c9f3c59841e5" />
 
 Key Deliverables in This Repo
