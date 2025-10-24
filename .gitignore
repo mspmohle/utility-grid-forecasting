@@ -1,0 +1,35 @@
+# Ignore Python cache & virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+env/
+venv/
+.ipynb_checkpoints/
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Jupyter & data outputs
+*.csv
+*.xlsx
+*.log
+*.tmp
+figures/
+data/
+outputs/
+dashboard_ready/
+
+# VSCode and IDE settings
+.vscode/
+.idea/
+
+# Environment / dependency files
+*.egg-info/
+dist/
+build/
