@@ -1,4 +1,4 @@
-## ⚡ AES Indiana Grid Load Forecasting Prototype
+## ⚡ AES Indiana Grid Load Prrof of concept
 
 This repository presents a reproducible **short-term electricity load forecasting** workflow built to mirror the operational challenges faced by **AES Indiana** and other utilities. Using open MISO regional load data as a public proxy for AES’s grid demand, the notebook demonstrates an end-to-end process—data cleaning, feature engineering, baseline ARIMA modeling, and visual forecasting—implemented entirely in Python.
 
