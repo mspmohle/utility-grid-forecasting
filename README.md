@@ -5,6 +5,7 @@ This repository presents a reproducible **short-term electricity load forecastin
 The goal is to provide a transparent, extendable foundation for future utility analytics work, enabling integration with internal AES data sources (SCADA, AMI, weather feeds) and more advanced forecasting techniques such as SARIMA, Prophet, or gradient-boosted models. All results are reproducible in a single Jupyter environment and export ready for dashboards or Power BI integration.
 
 ## 🧱 Repository Structure
+```text
 utility-grid-forecasting/
 │
 ├── 📂 data/
